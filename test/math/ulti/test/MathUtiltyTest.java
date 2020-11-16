@@ -18,6 +18,7 @@ public class MathUtiltyTest {
 @Test        
     public void getFactorial_RunsWell_IfValidArgument(){
         assertEquals(5040, getFactorial(7));
+        assertEquals(720, getFactorial(6));
     }
     @Test(expected = SQLException.class)
     public void getFatorial_throwsException_ifValidArgument(){
