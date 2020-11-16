@@ -20,7 +20,7 @@ public class MathUtiltyTest {
         assertEquals(5040, getFactorial(7));
         assertEquals(720, getFactorial(6));
     }
-    @Test(expected = SQLException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void getFatorial_throwsException_ifValidArgument(){
             getFactorial(-5);
     }
