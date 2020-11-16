@@ -29,5 +29,12 @@ public class Main {
         System.out.println("-5!=:"+getFactorial(-5));
         //in thu pi coi giong ben math.pi
         System.out.println("Pi:"+PI);
+        // muon ket luan ham minh ngon, thi ta phai nhin bang mat cai ket qua chạy của hàm
+        //va so sánh voi ky vong va phai lam tung truong hop chạy ham
+        //cach nay on nhung mat suc
+        //dùng cach nang cao: dung mau xac xanh do de ket luan
+        //nau thay xanh thì moi tinh huong dung
+        // thay do thì chi mot thang do thì tat ca do
+        //ta xai them framework
     }
 }
