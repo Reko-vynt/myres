@@ -36,5 +36,6 @@ public class Main {
         //nau thay xanh thì moi tinh huong dung
         // thay do thì chi mot thang do thì tat ca do
         //ta xai them framework
+        System.out.println("Good bye");
     }
 }
